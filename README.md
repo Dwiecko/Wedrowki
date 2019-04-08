@@ -1,3 +1,0 @@
-# Wędrówki
-
-### Aplikacja służąca umawianiu się ze znajomymi na piesze wędrówki.
