@@ -7,7 +7,6 @@ matrix:
         - cd ServerApp
       script:
         - dotnet restore
-    language: node_js
 
     - language: node_js
       node_js:
