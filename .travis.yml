@@ -1,0 +1,22 @@
+matrix:
+  include:
+    - language: csharp
+      mono: none
+      dotnet: 2.1.502
+      before_script:
+        - cd ServerApp
+      script:
+        - dotnet restore
+    language: node_js
+
+    - language: node_js
+      node_js:
+        - 8
+      cache:
+        directories:
+          - node_modules
+      before_script:
+        - cd clientApp
+      script:
+        - npm run build
+        - npm test
