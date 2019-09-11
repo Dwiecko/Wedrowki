@@ -1,6 +1,9 @@
-public struct Coord
+namespace ServerApp.Models
 {
-    public int X { get; set; }
+    public struct Coord
+    {
+        public int X { get; set; }
 
-    public int Y { get; set; }
+        public int Y { get; set; }
+    }
 }
